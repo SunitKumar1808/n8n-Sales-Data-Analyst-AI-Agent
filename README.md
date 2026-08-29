@@ -39,6 +39,7 @@ Supply City, Supply State, Supply State GST, Customer City, Customer State,
 Order Status, HSN Code, IGST(%), CGST(%), SGST(%), CESS(%), Quantity,
 MRP (Rs), Selling Price (Rs), IGST Value, CGST Value, SGST Value,
 CESS Value, Total Tax, Total Gross Bill Amount
+
 ⚙️ Setup
 Import the workflow
 Import workflow.json into your n8n instance (Workflows → Import from File)
@@ -64,6 +65,7 @@ Then try: "Email me total sales by customer state"
 "Email me a report of sales by Customer State."
 "How many orders were delivered vs cancelled vs returned? Email the breakdown."
 "Email me a full sales performance report — top products, top states, and total tax."
+
 📁 Repository Structure
 ├── workflow.json     # n8n workflow export
 ├── prompt.md          # Full AI Agent system prompt
